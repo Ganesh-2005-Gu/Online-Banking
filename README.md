@@ -52,6 +52,22 @@ A feature-rich, secure online banking system built with Java EE, featuring a stu
 - **Google Fonts (Inter)**
 - **Custom CSS Animations**
 
+## Login page
+<img width="1886" height="909" alt="Screenshot 2025-11-25 131056" src="https://github.com/user-attachments/assets/763dcbbb-619e-4d1e-b482-43401d183e72" />
+
+## Create account Page
+<img width="1894" height="907" alt="Screenshot 2025-11-25 131118" src="https://github.com/user-attachments/assets/4c5ec125-5e62-4ca3-8b99-8660cb8d4db4" />
+
+## Dashboard Page
+<img width="1904" height="902" alt="Screenshot 2025-11-25 130909" src="https://github.com/user-attachments/assets/5fbd8004-b878-4887-9131-788343bf2d3f" />
+
+## Open Account page
+<img width="745" height="763" alt="Screenshot 2025-11-25 131013" src="https://github.com/user-attachments/assets/aa257267-2737-4103-bd7f-f084a9f3659b" />
+
+## History Page
+<img width="1916" height="913" alt="Screenshot 2025-11-25 130949" src="https://github.com/user-attachments/assets/5a175f5d-affc-4b68-91e3-23d803c277e5" />
+
+
 ## 📁 Project Structure
 
 ```
