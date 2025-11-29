@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0" metadata-complete="true">
+
+    <display-name>Online Banking System</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <listener>
+        <listener-class>com.banking.listener.StartupListener</listener-class>
+    </listener>
+
+    <!-- Servlet Definitions -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.banking.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.banking.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.banking.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DashboardServlet</servlet-name>
+        <servlet-class>com.banking.servlet.DashboardServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TransactionServlet</servlet-name>
+        <servlet-class>com.banking.servlet.TransactionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HistoryServlet</servlet-name>
+        <servlet-class>com.banking.servlet.HistoryServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CreateAccountServlet</servlet-name>
+        <servlet-class>com.banking.servlet.CreateAccountServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.banking.servlet.AdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HealthCheckServlet</servlet-name>
+        <servlet-class>com.banking.servlet.HealthCheckServlet</servlet-class>
+    </servlet>
+
+    <!-- JSP Definitions -->
+    <servlet>
+        <servlet-name>IndexJsp</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterJsp</servlet-name>
+        <jsp-file>/register.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>DashboardJsp</servlet-name>
+        <jsp-file>/dashboard.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminDashboardJsp</servlet-name>
+        <jsp-file>/admin_dashboard.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>CreateAccountJsp</servlet-name>
+        <jsp-file>/create_account.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>HistoryJsp</servlet-name>
+        <jsp-file>/history.jsp</jsp-file>
+    </servlet>
+
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DashboardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TransactionServlet</servlet-name>
+        <url-pattern>/transaction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistoryServlet</servlet-name>
+        <url-pattern>/history</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateAccountServlet</servlet-name>
+        <url-pattern>/createAccount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HealthCheckServlet</servlet-name>
+        <url-pattern>/health</url-pattern>
+    </servlet-mapping>
+
+    <!-- JSP Mappings -->
+    <servlet-mapping>
+        <servlet-name>IndexJsp</servlet-name>
+        <url-pattern>/index.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterJsp</servlet-name>
+        <url-pattern>/register.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DashboardJsp</servlet-name>
+        <url-pattern>/dashboard.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminDashboardJsp</servlet-name>
+        <url-pattern>/admin_dashboard.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateAccountJsp</servlet-name>
+        <url-pattern>/create_account.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistoryJsp</servlet-name>
+        <url-pattern>/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <!-- Session Configuration -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+</web-app>
