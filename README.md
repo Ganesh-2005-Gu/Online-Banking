@@ -56,6 +56,27 @@ A feature-rich, secure online banking system built with Java EE, featuring a stu
 - **Google Fonts (Inter)**
 - **Custom CSS Animations**
 
+## New Features
+<img width="851" height="494" alt="Screenshot 2025-12-03 111135" src="https://github.com/user-attachments/assets/f5e58561-49ec-4075-9c1e-e968b1a6c3c2" />
+<img width="824" height="506" alt="Screenshot 2025-12-03 111128" src="https://github.com/user-attachments/assets/e3c50864-9848-4020-93fe-37a41e554b0a" />
+<img width="815" height="917" alt="Screenshot 2025-12-03 111116" src="https://github.com/user-attachments/assets/b7418889-1415-45d1-b193-3b8c4017986d" />
+
+<img width="902" height="903" alt="Screenshot 2025-12-03 110114" src="https://github.com/user-attachments/assets/42335c06-7992-494f-a759-e2ff2049c1ce" />
+
+## Login page
+
+<img width="692" height="700" alt="Screenshot 2025-12-03 110845" src="https://github.com/user-attachments/assets/9fc4c44d-cf52-4fa7-8fb9-f8eb108d495f" />
+
+## Create the account
+<img width="1362" height="834" alt="Screenshot 2025-12-03 110911" src="https://github.com/user-attachments/assets/90979061-0896-4d13-8fd1-a04531a59055" />
+
+## Histroy
+<img width="1374" height="605" alt="Screenshot 2025-12-03 110944" src="https://github.com/user-attachments/assets/476ae6dd-b5f5-46f2-99a4-3ee8df3a5647" />
+
+## open account 
+<img width="1338" height="610" alt="Screenshot 2025-12-03 111005" src="https://github.com/user-attachments/assets/7997bc38-c409-417b-abf9-414ab9130eaf" />
+
+
 ## 📁 Project Structure
 
 ```
